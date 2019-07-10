@@ -11,7 +11,12 @@
           <e p="readme.txt" t="Include" />
         </e>
         <e p="Scripts" t="Include">
-          <e p="Player.cs" t="Include" />
+          <e p="Background" t="Include">
+            <e p="BGScaler.cs" t="Include" />
+          </e>
+          <e p="Player" t="Include">
+            <e p="Player.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="JackTheGiant.sln" t="IncludeFlat" />

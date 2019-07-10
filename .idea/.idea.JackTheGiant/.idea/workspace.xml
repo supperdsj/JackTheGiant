@@ -2,80 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ab6144c-36ba-4c04-b198-beb0f48397ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Animations.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Idle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Idle.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Walk.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Walk.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Font.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Font/blow.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Font/blow.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Font/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Font/readme.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Cloud1.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Cloud1.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Cloud2.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Cloud2.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Cloud3.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Cloud3.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/DarkCloud.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/DarkCloud.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Background music.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Background music.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/click.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/click.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/coin sound.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/coin sound.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/life sound.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/life sound.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Backgrounds.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/game background 2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/game background 2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/game background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/game background.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/highscore background 2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/highscore background 2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/highscore background 3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/highscore background 3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/highscore background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/highscore background.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/main menu background 2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/main menu background 2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/menu background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/menu background.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/options background 2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/options background 2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/options bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/options bg.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Buttons.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Buttons/Game Over Panel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Buttons/Game Over Panel.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Buttons/Menu Buttons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Buttons/Menu Buttons.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Buttons/Option Buttons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Buttons/Option Buttons.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Buttons/Pause Panel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Buttons/Pause Panel.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Gameplay.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Gameplay/Gameplay Elements.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Gameplay/Gameplay Elements.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Gameplay/Player.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Gameplay/Player.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.JackTheGiant/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.JackTheGiant/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.JackTheGiant/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.JackTheGiant/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Empty.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Empty.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Cloud1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Cloud1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,22 +26,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Background/BGScaler.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="35" column="44" lean-forward="true" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+            <state relative-caret-position="136">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
-                <marker date="1562603385092" expanded="true" signature="6:92" ph="..." />
-                <marker date="1562603385092" expanded="true" signature="130:1406" ph="{...}" />
-                <marker date="1562603385092" expanded="true" signature="258:352" ph="{...}" />
-                <marker date="1562603385092" expanded="true" signature="424:431" ph="{...}" />
-                <marker date="1562603385092" expanded="true" signature="495:532" ph="{...}" />
-                <marker date="1562603385092" expanded="true" signature="564:1404" ph="{...}" />
-                <marker date="1562603385092" expanded="true" signature="712:977" ph="{...}" />
-                <marker date="1562603385092" expanded="true" signature="749:967" ph="{...}" />
-                <marker date="1562603385092" expanded="true" signature="1002:1269" ph="{...}" />
-                <marker date="1562603385092" expanded="true" signature="1039:1259" ph="{...}" />
-                <marker date="1562603385092" expanded="true" signature="1269:1348" ph="{...}" />
+                <marker date="1562739791159" expanded="false" signature="6:78" ph="..." />
+                <marker date="1562739791159" expanded="true" signature="118:761" ph="{...}" />
+                <marker date="1562739791159" expanded="true" signature="190:759" ph="{...}" />
+                <marker date="1562739791159" expanded="true" signature="640:753" ph="/* tempLocation.y = 0; ... */" />
               </folding>
             </state>
           </provider>
@@ -129,13 +53,14 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/416475E6-C0B9-423B-A45F-C1C6EA4AFF1C/4d/e31ff30f/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Background/BGScaler.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Background/BGScaler.cs" />
       </list>
     </option>
   </component>
@@ -146,10 +71,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="821" />
+    <option name="height" value="816" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -217,7 +142,7 @@
       <option name="presentableId" value="Default" />
       <updated>1562598957587</updated>
       <workItem from="1562598958837" duration="742000" />
-      <workItem from="1562602479057" duration="910000" />
+      <workItem from="1562602479057" duration="3262000" />
     </task>
     <task id="LOCAL-00001" summary="project init">
       <created>1562599080480</created>
@@ -226,11 +151,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562599080480</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="finish play walk">
+      <created>1562603480321</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1562603480321</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1652000" />
+    <option name="totallyTimeSpent" value="4004000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -242,7 +174,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="821" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="816" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1981402" />
@@ -280,7 +212,8 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
     <MESSAGE value="project init" />
-    <option name="LAST_COMMIT_MESSAGE" value="project init" />
+    <MESSAGE value="finish play walk" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish play walk" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -310,20 +243,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="35" column="44" lean-forward="true" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+        <state relative-caret-position="-33">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Background/BGScaler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
-            <marker date="1562603385092" expanded="true" signature="6:92" ph="..." />
-            <marker date="1562603385092" expanded="true" signature="130:1406" ph="{...}" />
-            <marker date="1562603385092" expanded="true" signature="258:352" ph="{...}" />
-            <marker date="1562603385092" expanded="true" signature="424:431" ph="{...}" />
-            <marker date="1562603385092" expanded="true" signature="495:532" ph="{...}" />
-            <marker date="1562603385092" expanded="true" signature="564:1404" ph="{...}" />
-            <marker date="1562603385092" expanded="true" signature="712:977" ph="{...}" />
-            <marker date="1562603385092" expanded="true" signature="749:967" ph="{...}" />
-            <marker date="1562603385092" expanded="true" signature="1002:1269" ph="{...}" />
-            <marker date="1562603385092" expanded="true" signature="1039:1259" ph="{...}" />
-            <marker date="1562603385092" expanded="true" signature="1269:1348" ph="{...}" />
+            <marker date="1562739791159" expanded="false" signature="6:78" ph="..." />
+            <marker date="1562739791159" expanded="true" signature="118:761" ph="{...}" />
+            <marker date="1562739791159" expanded="true" signature="190:759" ph="{...}" />
+            <marker date="1562739791159" expanded="true" signature="640:753" ph="/* tempLocation.y = 0; ... */" />
           </folding>
         </state>
       </provider>
