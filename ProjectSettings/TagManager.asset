@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Cloud
   - Deadly
+  - Background
   layers:
   - Default
   - TransparentFX
@@ -42,4 +43,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: BG
+    uniqueID: 3841785575
     locked: 0

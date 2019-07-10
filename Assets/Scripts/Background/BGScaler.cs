@@ -15,6 +15,7 @@ public class BGScaler : MonoBehaviour {
         float worldWidth = worldHeight / Screen.height * Screen.width;
 
         tempScale.x = worldWidth / width;
+        tempScale.y = tempScale.x;
         transform.localScale = tempScale;
 
         // tempLocation.y = 0;

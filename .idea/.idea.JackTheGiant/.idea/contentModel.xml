@@ -12,7 +12,9 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="Background" t="Include">
+            <e p="BGCollector.cs" t="Include" />
             <e p="BGScaler.cs" t="Include" />
+            <e p="BGSpawner.cs" t="Include" />
           </e>
           <e p="CloudCollectors" t="Include">
             <e p="CloudCollector.cs" t="Include" />
@@ -20,6 +22,7 @@
           </e>
           <e p="Player" t="Include">
             <e p="Player.cs" t="Include" />
+            <e p="PlayerBounds.cs" t="Include" />
           </e>
         </e>
         <e p="Sprites" t="Include">
