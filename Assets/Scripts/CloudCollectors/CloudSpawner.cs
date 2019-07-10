@@ -26,11 +26,8 @@ public class CloudSpawner : MonoBehaviour {
 
     void SetMinAndMaxX() {
         Vector3 bounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, 0));
-        print(bounds);
         maxX = bounds.x - 0.5f;
         minX = -bounds.x + 0.5f;
-        print(minX);
-        print(maxX);
     }
 
     void Shuffle(GameObject[] arrayToShuffle) {
@@ -92,5 +89,39 @@ public class CloudSpawner : MonoBehaviour {
         temp.y += 0.8f;
         player.transform.position = temp;
 
+    }
+
+    void OnTriggerEnter2D(Collider2D target) {
+        if (target.tag == "Cloud" || target.tag == "Deadly") {
+            if (target.transform.position.y == lastCloudPosY) {
+                Shuffle(clouds);
+                Shuffle(collectables);
+                Vector3 temp = target.transform.position;
+
+                for (int i = 0; i < clouds.Length; i++) {
+                    if (!clouds[i].activeInHierarchy) {
+                        if (controlX == 0) {
+                            temp.x = Random.Range(0.0f, maxX);
+                            controlX = 1;
+                        }else if (controlX == 1) {
+                            temp.x = Random.Range(0.0f, minX);
+                            controlX = 2;
+                        }else if (controlX == 2) {
+                            temp.x = Random.Range(1.0f, maxX);
+                            controlX = 3;
+                        }else if (controlX == 3) {
+                            temp.x = Random.Range(-1.0f,minX);
+                            controlX = 0;
+                        }
+                        temp.y -= distanceBetweenClouds;
+                        lastCloudPosY = temp.y;
+                        clouds[i].transform.position = temp;
+                        clouds[i].SetActive(true);
+                    }
+
+
+                }
+            }
+        }
     }
 }
