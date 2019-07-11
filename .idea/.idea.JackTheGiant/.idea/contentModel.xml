@@ -20,6 +20,11 @@
             <e p="CloudCollector.cs" t="Include" />
             <e p="CloudSpawner.cs" t="Include" />
           </e>
+          <e p="GameControllers" t="Include">
+            <e p="GameMenuController.cs" t="Include" />
+            <e p="HighScoreMenuController.cs" t="Include" />
+            <e p="OptionsMenuController.cs" t="Include" />
+          </e>
           <e p="Player" t="Include">
             <e p="Player.cs" t="Include" />
             <e p="PlayerBounds.cs" t="Include" />

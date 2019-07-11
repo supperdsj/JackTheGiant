@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ab6144c-36ba-4c04-b198-beb0f48397ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/HighScoreMenu.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/HighScoreMenu.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/OptionsMenu.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/OptionsMenu.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.JackTheGiant/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.JackTheGiant/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/OptionsMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/OptionsMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerBounds.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <marker date="1562762237170" expanded="true" signature="6:92" ph="..." />
                 <marker date="1562762237170" expanded="true" signature="136:760" ph="{...}" />
@@ -162,6 +159,40 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameControllers/GameMenuController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <marker date="1562830625542" expanded="false" signature="6:113" ph="..." />
+                <marker date="1562830625542" expanded="true" signature="163:526" ph="{...}" />
+                <marker date="1562830625542" expanded="true" signature="193:244" ph="{...}" />
+                <marker date="1562830625542" expanded="true" signature="278:334" ph="{...}" />
+                <marker date="1562830625542" expanded="true" signature="366:420" ph="{...}" />
+                <marker date="1562830625542" expanded="true" signature="449:484" ph="{...}" />
+                <marker date="1562830625542" expanded="true" signature="516:524" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameControllers/OptionsMenuController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+              <folding>
+                <marker date="1562830692009" expanded="true" signature="6:113" ph="..." />
+                <marker date="1562830692009" expanded="true" signature="165:422" ph="{...}" />
+                <marker date="1562830692009" expanded="true" signature="237:258" ph="{...}" />
+                <marker date="1562830692009" expanded="true" signature="316:337" ph="{...}" />
+                <marker date="1562830692009" expanded="true" signature="369:420" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -179,14 +210,17 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/416475E6-C0B9-423B-A45F-C1C6EA4AFF1C/4d/e31ff30f/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Background/BGScaler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerBounds.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sprites/Camera/CameraScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CloudCollectors/CloudSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prefabs/Cloud1.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CloudCollectors/CloudCollector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prefabs/DarkCloud.prefab" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerBounds.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sprites/Camera/CameraScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameControllers/OptionsMenuController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameControllers/HighScoreMenuController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Background/BGCollector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameControllers/GameMenuController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Background/BGSpawner.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -202,6 +236,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Background/BGScaler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Background/BGSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerBounds.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameControllers/GameMenuController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameControllers/HighScoreMenuController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameControllers/OptionsMenuController.cs" />
       </list>
     </option>
   </component>
@@ -294,7 +331,7 @@
       <updated>1562598957587</updated>
       <workItem from="1562598958837" duration="742000" />
       <workItem from="1562602479057" duration="12074000" />
-      <workItem from="1562825964192" duration="2581000" />
+      <workItem from="1562825964192" duration="3298000" />
     </task>
     <task id="LOCAL-00001" summary="project init">
       <created>1562599080480</created>
@@ -359,11 +396,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562828689940</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add HighScoreMenu/OptionsMenu">
+      <created>1562829985683</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1562829985683</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15633000" />
+    <option name="totallyTimeSpent" value="16350000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -376,6 +420,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="816" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20100144" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -420,7 +465,8 @@
     <MESSAGE value="refreash the clouds" />
     <MESSAGE value="set MainMenu" />
     <MESSAGE value="finish menu animate" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish menu animate" />
+    <MESSAGE value="add HighScoreMenu/OptionsMenu" />
+    <option name="LAST_COMMIT_MESSAGE" value="add HighScoreMenu/OptionsMenu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -585,7 +631,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerBounds.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <marker date="1562762237170" expanded="true" signature="6:92" ph="..." />
             <marker date="1562762237170" expanded="true" signature="136:760" ph="{...}" />
@@ -594,6 +640,50 @@
             <marker date="1562762237170" expanded="true" signature="283:405" ph="{...}" />
             <marker date="1562762237170" expanded="true" signature="443:565" ph="{...}" />
             <marker date="1562762237170" expanded="true" signature="598:758" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameControllers/HighScoreMenuController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <marker date="1562830644155" expanded="false" signature="6:113" ph="..." />
+            <marker date="1562830644155" expanded="true" signature="168:402" ph="{...}" />
+            <marker date="1562830644155" expanded="true" signature="240:248" ph="{...}" />
+            <marker date="1562830644155" expanded="true" signature="307:315" ph="{...}" />
+            <marker date="1562830644155" expanded="true" signature="348:399" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameControllers/GameMenuController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <marker date="1562830625542" expanded="false" signature="6:113" ph="..." />
+            <marker date="1562830625542" expanded="true" signature="163:526" ph="{...}" />
+            <marker date="1562830625542" expanded="true" signature="193:244" ph="{...}" />
+            <marker date="1562830625542" expanded="true" signature="278:334" ph="{...}" />
+            <marker date="1562830625542" expanded="true" signature="366:420" ph="{...}" />
+            <marker date="1562830625542" expanded="true" signature="449:484" ph="{...}" />
+            <marker date="1562830625542" expanded="true" signature="516:524" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameControllers/OptionsMenuController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+          <folding>
+            <marker date="1562830692009" expanded="true" signature="6:113" ph="..." />
+            <marker date="1562830692009" expanded="true" signature="165:422" ph="{...}" />
+            <marker date="1562830692009" expanded="true" signature="237:258" ph="{...}" />
+            <marker date="1562830692009" expanded="true" signature="316:337" ph="{...}" />
+            <marker date="1562830692009" expanded="true" signature="369:420" ph="{...}" />
           </folding>
         </state>
       </provider>
