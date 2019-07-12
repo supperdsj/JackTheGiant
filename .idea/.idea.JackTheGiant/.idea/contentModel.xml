@@ -30,6 +30,9 @@
             <e p="HighScoreMenuController.cs" t="Include" />
             <e p="OptionsMenuController.cs" t="Include" />
           </e>
+          <e p="GamePreferences" t="Include">
+            <e p="GamePreferences.cs" t="Include" />
+          </e>
           <e p="Player" t="Include">
             <e p="Player.cs" t="Include" />
             <e p="PlayerBounds.cs" t="Include" />
