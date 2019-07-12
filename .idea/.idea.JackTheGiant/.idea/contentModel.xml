@@ -25,6 +25,7 @@
           </e>
           <e p="GameControllers" t="Include">
             <e p="GameMenuController.cs" t="Include" />
+            <e p="GameplayController.cs" t="Include" />
             <e p="HighScoreMenuController.cs" t="Include" />
             <e p="OptionsMenuController.cs" t="Include" />
           </e>

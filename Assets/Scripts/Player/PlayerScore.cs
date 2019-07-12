@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.PlayerLoop;
 
 public class PlayerScore : MonoBehaviour {
     [SerializeField] AudioClip coinClip, lifeClip;
@@ -12,7 +13,7 @@ public class PlayerScore : MonoBehaviour {
 
     bool countScore;
 
-    public static int scoreCount, lifeCount, coinCount;
+    public static int scoreCount=1, lifeCount=1, coinCount=1;
 
     void Awake() {
         cameraScript = Camera.main.GetComponent<CameraScript>();
@@ -28,8 +29,9 @@ public class PlayerScore : MonoBehaviour {
         if (countScore) {
             if (transform.position.y < previousPosition.y) {
                 scoreCount++;
-                previousPosition = transform.position;
             }
+            previousPosition = transform.position;
+            GameplayController.instance.SetScore(scoreCount);
         }
     }
 
@@ -38,12 +40,16 @@ public class PlayerScore : MonoBehaviour {
             case "Coin":
                 coinCount++;
                 scoreCount += 200;
+                GameplayController.instance.SetScore(scoreCount);
+                GameplayController.instance.SetCoinScore(coinCount);
                 AudioSource.PlayClipAtPoint(coinClip, transform.position);
                 target.gameObject.SetActive(false);
                 break;
             case "Life":
                 lifeCount++;
                 scoreCount += 300;
+                GameplayController.instance.SetScore(scoreCount);
+                GameplayController.instance.SetLifeScore(lifeCount);
                 AudioSource.PlayClipAtPoint(lifeClip, transform.position);
                 target.gameObject.SetActive(false);
                 break;
@@ -61,5 +67,6 @@ public class PlayerScore : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
+        CountScore();
     }
 }

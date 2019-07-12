@@ -1,17 +1,14 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class HighScoreMenuController : MonoBehaviour {
-    // Start is called before the first frame update
+    GameplayController gc;
+
     void Start() {
-
-    }
-
-    // Update is called once per frame
-    void Update() {
-
+        gc = GameObject.Find("GameplayController").GetComponent<GameplayController>();
     }
 
     public void GoBackButton() {
