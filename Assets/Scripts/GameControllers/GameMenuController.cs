@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class GameMenuController : MonoBehaviour {
     public void StartGame() {
+        GameManagerController.instace.gameStartedFromMainMenu = true;
+        GameManagerController.instace.gameRestartedAfterPlayerDied = false;
         SceneManager.LoadScene("Gameplay");
     }
 
