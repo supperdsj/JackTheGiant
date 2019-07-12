@@ -59,6 +59,7 @@ public class PlayerScore : MonoBehaviour {
                 transform.position = new Vector3(500, 500, 0);
                 countScore = false;
                 cameraScript.moveCamera = false;
+                GameplayController.instance.ShowGameoverPanel(scoreCount,coinCount);
                 lifeCount--;
                 // }
                 break;
