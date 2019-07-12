@@ -36,13 +36,16 @@ public class PlayerScore : MonoBehaviour {
     void OnTriggerEnter2D(Collider2D target) {
         switch (target.tag) {
             case "Coin":
+                coinCount++;
                 scoreCount += 200;
                 AudioSource.PlayClipAtPoint(coinClip, transform.position);
+                target.gameObject.SetActive(false);
                 break;
             case "Life":
                 lifeCount++;
                 scoreCount += 300;
                 AudioSource.PlayClipAtPoint(lifeClip, transform.position);
+                target.gameObject.SetActive(false);
                 break;
             case "Bounds":
             case "Deadly":

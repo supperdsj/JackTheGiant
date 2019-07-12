@@ -18,6 +18,9 @@ public class CloudSpawner : MonoBehaviour {
         SetMinAndMaxX();
         CreateClouds();
         player = GameObject.Find("Player");
+        for (int i = 0; i < collectables.Length; i++) {
+            collectables[i].SetActive(false);
+        }
     }
 
     void Start() {
@@ -48,16 +51,20 @@ public class CloudSpawner : MonoBehaviour {
             if (controlX == 0) {
                 temp.x = Random.Range(0.0f, maxX);
                 controlX = 1;
-            }else if (controlX == 1) {
+            }
+            else if (controlX == 1) {
                 temp.x = Random.Range(0.0f, minX);
                 controlX = 2;
-            }else if (controlX == 2) {
+            }
+            else if (controlX == 2) {
                 temp.x = Random.Range(1.0f, maxX);
                 controlX = 3;
-            }else if (controlX == 3) {
-                temp.x = Random.Range(-1.0f,minX);
+            }
+            else if (controlX == 3) {
+                temp.x = Random.Range(-1.0f, minX);
                 controlX = 0;
             }
+
             lastCloudPosY = positionY;
             clouds[i].transform.position = temp;
             positionY -= distanceBetweenClouds;
@@ -70,11 +77,11 @@ public class CloudSpawner : MonoBehaviour {
         for (int i = 0; i < darkClouds.Length; i++) {
             if (darkClouds[i].transform.position.y == 0f) {
                 Vector3 t = darkClouds[i].transform.position;
-                darkClouds[i].transform.position=new Vector3(
+                darkClouds[i].transform.position = new Vector3(
                     cloudsInGame[0].transform.position.x,
                     cloudsInGame[0].transform.position.y,
                     cloudsInGame[0].transform.position.z
-                    );
+                );
                 cloudsInGame[0].transform.position = t;
             }
         }
@@ -88,7 +95,6 @@ public class CloudSpawner : MonoBehaviour {
 
         temp.y += 0.8f;
         player.transform.position = temp;
-
     }
 
     void OnTriggerEnter2D(Collider2D target) {
@@ -103,23 +109,43 @@ public class CloudSpawner : MonoBehaviour {
                         if (controlX == 0) {
                             temp.x = Random.Range(0.0f, maxX);
                             controlX = 1;
-                        }else if (controlX == 1) {
+                        }
+                        else if (controlX == 1) {
                             temp.x = Random.Range(0.0f, minX);
                             controlX = 2;
-                        }else if (controlX == 2) {
+                        }
+                        else if (controlX == 2) {
                             temp.x = Random.Range(1.0f, maxX);
                             controlX = 3;
-                        }else if (controlX == 3) {
-                            temp.x = Random.Range(-1.0f,minX);
+                        }
+                        else if (controlX == 3) {
+                            temp.x = Random.Range(-1.0f, minX);
                             controlX = 0;
                         }
+
                         temp.y -= distanceBetweenClouds;
                         lastCloudPosY = temp.y;
                         clouds[i].transform.position = temp;
                         clouds[i].SetActive(true);
+
+                        int random = Random.Range(0, collectables.Length);
+                        if (clouds[i].tag != "Deadly") {
+                            if (!collectables[random].activeInHierarchy) {
+                                Vector3 temp2 = clouds[i].transform.position;
+                                temp2.y += .7f;
+                                if (collectables[random].tag == "Life") {
+                                    if (PlayerScore.lifeCount < 2) {
+                                        collectables[random].transform.position = temp2;
+                                        collectables[random].SetActive(true);
+                                    }
+                                }
+                                else {
+                                    collectables[random].transform.position = temp2;
+                                    collectables[random].SetActive(true);
+                                }
+                            }
+                        }
                     }
-
-
                 }
             }
         }

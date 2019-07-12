@@ -20,6 +20,9 @@
             <e p="CloudCollector.cs" t="Include" />
             <e p="CloudSpawner.cs" t="Include" />
           </e>
+          <e p="Collectables" t="Include">
+            <e p="CollectableScripts.cs" t="Include" />
+          </e>
           <e p="GameControllers" t="Include">
             <e p="GameMenuController.cs" t="Include" />
             <e p="HighScoreMenuController.cs" t="Include" />
