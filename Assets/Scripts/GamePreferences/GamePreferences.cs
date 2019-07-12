@@ -29,16 +29,16 @@ public static class GamePreferences {
         PlayerPrefs.SetInt(GamePreferences.HardDifficulty, difficulty);
     }
 
-    public static void GetEasyDifficultyState(int difficulty) {
-        PlayerPrefs.GetInt(GamePreferences.EasyDifficulty);
+    public static int GetEasyDifficultyState() {
+        return PlayerPrefs.GetInt(GamePreferences.EasyDifficulty);
     }
 
-    public static void GetMediumDifficultyState(int difficulty) {
-        PlayerPrefs.GetInt(GamePreferences.MediumDifficulty);
+    public static int GetMediumDifficultyState() {
+        return PlayerPrefs.GetInt(GamePreferences.MediumDifficulty);
     }
 
-    public static void GetHardDifficultyState(int difficulty) {
-        PlayerPrefs.GetInt(GamePreferences.HardDifficulty);
+    public static int GetHardDifficultyState() {
+        return PlayerPrefs.GetInt(GamePreferences.HardDifficulty);
     }
     //----
     public static void SetEasyDifficultyScore(int difficulty) {
@@ -53,16 +53,16 @@ public static class GamePreferences {
         PlayerPrefs.SetInt(GamePreferences.HardDifficultyScore, difficulty);
     }
 
-    public static void GetEasyDifficultyScore(int difficulty) {
-        PlayerPrefs.GetInt(GamePreferences.EasyDifficultyScore);
+    public static int GetEasyDifficultyScore() {
+        return PlayerPrefs.GetInt(GamePreferences.EasyDifficultyScore);
     }
 
-    public static void GetMediumDifficultyScore(int difficulty) {
-        PlayerPrefs.GetInt(GamePreferences.MediumDifficultyScore);
+    public static int GetMediumDifficultyScore() {
+        return PlayerPrefs.GetInt(GamePreferences.MediumDifficultyScore);
     }
 
-    public static void GetHardDifficultyScore(int difficulty) {
-        PlayerPrefs.GetInt(GamePreferences.HardDifficultyScore);
+    public static int GetHardDifficultyScore() {
+        return PlayerPrefs.GetInt(GamePreferences.HardDifficultyScore);
     }
     //----
     public static void SetEasyDifficultyCoinScore(int difficulty) {
@@ -77,22 +77,22 @@ public static class GamePreferences {
         PlayerPrefs.SetInt(GamePreferences.HardDifficultyCoinScore, difficulty);
     }
 
-    public static void GetEasyDifficultyCoinScore(int difficulty) {
-        PlayerPrefs.GetInt(GamePreferences.EasyDifficultyCoinScore);
+    public static int GetEasyDifficultyCoinScore() {
+        return PlayerPrefs.GetInt(GamePreferences.EasyDifficultyCoinScore);
     }
 
-    public static void GetMediumDifficultyCoinScore(int difficulty) {
-        PlayerPrefs.GetInt(GamePreferences.MediumDifficultyCoinScore);
+    public static int GetMediumDifficultyCoinScore() {
+        return PlayerPrefs.GetInt(GamePreferences.MediumDifficultyCoinScore);
     }
 
-    public static void GetHardDifficultyCoinScore(int difficulty) {
-        PlayerPrefs.GetInt(GamePreferences.HardDifficultyCoinScore);
+    public static int GetHardDifficultyCoinScore() {
+        return PlayerPrefs.GetInt(GamePreferences.HardDifficultyCoinScore);
     }
     
     public static void SetMusicState(int state) {
         PlayerPrefs.SetInt(GamePreferences.IsMusicOn, state);
     }
-    public static void GetMusicState(int state) {
-        PlayerPrefs.GetInt(GamePreferences.IsMusicOn );
+    public static int GetMusicState() {
+        return PlayerPrefs.GetInt(GamePreferences.IsMusicOn );
     }
 }
