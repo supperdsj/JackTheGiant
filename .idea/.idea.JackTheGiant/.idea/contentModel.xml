@@ -28,6 +28,7 @@
             <e p="GameMenuController.cs" t="Include" />
             <e p="GameplayController.cs" t="Include" />
             <e p="HighScoreMenuController.cs" t="Include" />
+            <e p="MusicController.cs" t="Include" />
             <e p="OptionsMenuController.cs" t="Include" />
           </e>
           <e p="GamePreferences" t="Include">
