@@ -46,7 +46,9 @@
           </e>
         </e>
       </e>
+      <e p="Jack-The-Giant-Remake.zip" t="Include" />
       <e p="JackTheGiant.sln" t="IncludeFlat" />
+      <e p="learn.md" t="Include" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Temp/bin" t="ExcludeRecursive" />
